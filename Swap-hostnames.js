@@ -1,0 +1,1 @@
+Javascript: if(location.hostname == 'qa01.v4.timesout.net') { location.hostname='qa15.d' } else if(location.hostname == 'qa15.d') { location.hostname='qa01.v4.timesout.net'}  else if(location.hostname != 'qa01.v4.timesout.net' || location.hostname != 'qa15.d'){ alert ('This link will only work between qa15.d and qa01.v4.timesout.net')}
